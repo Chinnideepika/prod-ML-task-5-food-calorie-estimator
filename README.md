@@ -35,17 +35,17 @@ It’s lightweight, interactive, and deployable as a simple web app — ideal fo
 
 ## 🧠 How It Works (High-Level Architecture)
 
-```markdown
 ```mermaid
 flowchart LR
     A[Upload Food Image] --> B[Streamlit UI]
     B --> C[Preprocessing: resize and normalize]
     C --> D[EfficientNetB0 Classifier]
     D --> E[Top-3 Predictions]
-    E --> F[Calorie Lookup Table (calorie_database.py)]
+    E --> F[Calorie Lookup Table: calorie_database.py]
     F --> G[Portion Adjustment]
     G --> H[Final Calorie Output]
     H --> I[Log to CSV]
+
 
 ```
 
