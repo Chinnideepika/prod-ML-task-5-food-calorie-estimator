@@ -42,6 +42,12 @@ flowchart LR
     B --> C[Preprocessing: resize and normalize]
     C --> D[EfficientNetB0 Classifier]
     D --> E[Top-3 Predictions]
+
+### 🙌 Author
+
+Built by **Deepika**
+
+
     E --> F[Calorie Lookup Table (calorie_database.py)]
     F --> G[Portion Adjustment]
     G --> H[Final Calorie Output]
