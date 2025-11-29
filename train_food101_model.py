@@ -14,7 +14,7 @@ import os
 # ------------------------------------
 # CONFIG
 # ------------------------------------
-DATA_DIR = r"C:\Users\Deepika\Downloads\archive (2)\food-101\food-101\images"  # CHANGE THIS
+DATA_DIR = r" "
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
 EPOCHS = 5   # start small; increase later
@@ -84,3 +84,4 @@ history = model.fit(train_ds, validation_data=val_ds, epochs=EPOCHS)
 # ------------------------------------
 model.save("food101_model.h5")
 print("Model saved successfully!")
+
